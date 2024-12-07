@@ -10,6 +10,8 @@ The rover needs to be parked, and it is tasked to find an open parking spot and 
    - Uses object detection to determine if the spot is empty or occupied by detecting a car object.
    - After that, the rover aligns to the guiding lines and then parks itself.
 
+![Diagram](https://raw.githubusercontent.com/kiandrew08/autopark/refs/heads/main/diagram.jpg)
+
 3. This process repeats until the rover identifies an empty parking spot.
 
 We plan to use printed images of cars, similar to the example below, to simulate parked vehicles for testing.
