@@ -25,8 +25,3 @@ We plan to use printed images of cars, similar to the example below, to simulate
 - Once an empty spot is found, the rover will autonomously park itself.
 
 ---
-
-### Future Enhancements
-- Integration with advanced object detection algorithms for real-world parking lot scenarios.
-- Adding real-time mapping and visualization for better navigation.
-
