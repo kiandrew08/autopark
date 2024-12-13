@@ -24,8 +24,8 @@ import time
 # Connect to the robot
 async def connect():
     opts = RobotClient.Options.with_api_key(
-        api_key='h96tmj8uwv42ciguuwshcnvupy2i1882',  # API key for authentication
-        api_key_id='1a89d168-a11c-455e-8633-d6f99efd6bf2'  # API ID
+        api_key='YOUR-API-KEY',  # API key for authentication
+        api_key_id='YOUR-API-ID'  # API ID
     )
     return await RobotClient.at_address('wheeler-main.d4e6mcnnuf.viam.cloud', opts)
 
